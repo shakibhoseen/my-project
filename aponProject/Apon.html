@@ -1,0 +1,247 @@
+<!Doctype html>
+<html>
+  <head>
+      <title>Apon Decoretor</title>
+     <link type="text/css" rel="stylesheet" href="css/aponStyle.css"/>
+
+  </head>
+
+  <body>
+    <div class="controlBtn">
+
+     <button onclick="refreshVisible()" id="refreshVsi"  >printMood</button>
+      <button onclick="handleSubmit()" id="calculateId">Calculate</button>
+
+    </div>
+  <div class="mainDivision">
+     <div class="grahokCopy">
+      <div id="addressId">
+           <div class="containIdentyfr">
+              <h2 class="aponNAme">আপন ডেকোরেটর</h2>    <h4 class="identify">(গ্রাহক কপি)<h4>
+            </div>
+
+            <h3>প্রোঃ মোঃ লিটন হোসেন</h3>
+            <h4>মোবাঃ ০১৭১৯-৬৬৩৩১৩</h4>
+
+            <div class="dukanContact">
+                <div class="dukand"> <h4>নামঃ</h4>  <input type="text" id="grahokNmGraId"/> </div> <div class="dukand"> <h4>ঠিকানাঃ</h4><input type="text" id="grahkThikanaGraId" /></div>
+            </div>
+              <div class="dukanContact">
+                  <div class="dukand"> <h4>মোবাঃ</h4>  <input type="text" id="grahkPhnGraId" /> </div> <div class="dukand"> <h4> তারিখঃ</h4><input type="text" id="tarikId" readonly /></div>
+              </div>
+
+               <h5>মোহাম্মাদপুর মোড় বাস স্ট্যান্ড, ঝিকরগাছা, যশোর</h5>
+             </div>
+
+
+
+
+    <div class="tablefix">
+       <table border="1px solid #333">
+            <thead>
+                    <tr>   <th>ক্রঃনং</th>    <th>মালের বিবরণ</th>   <th>সংখ্যা</th>    <th>দর</th>    <th>টাকা</th> </tr>
+            </thead>
+
+            <tbody>
+                    <tr>   <td class="kromik">০১</td>    <td class="kromik">প্লাস্টিকের চেয়ার</td>    <td> <input type="text" id="quantity1" /> </td>       <td><input type="text" id="dor1" /></td>     <td id="taka1" ></td>       </tr>
+                    <tr>   <td class="kromik">০২</td>    <td class="kromik">হাড়ি</td>              <td> <input type="text"  id="quantity2" /> </td>     <td><input type="text" id="dor2"  /></td>    <td id="taka2" ></td>       </tr>
+                    <tr>   <td class="kromik">০৩</td>    <td class="kromik">টেবিল</td>            <td> <input type="text" id="quantity3"  /> </td>      <td><input type="text"  id="dor3"  /></td>       <td id="taka3" ></td>      </tr>
+                    <tr>   <td class="kromik">০৪</td>    <td class="kromik">গামলা</td>            <td> <input type="text"   id="quantity4" /> </td>      <td><input type="text"  id="dor4"  /></td>      <td id="taka4" ></td>     </tr>
+                     <tr>   <td class="kromik">০৫</td>    <td class="kromik">রাইস চামস</td>       <td> <input type="text"   id="quantity5"   /> </td>     <td><input type="text"  id="dor5" /></td>    <td id="taka5" ></td>     </tr>
+
+
+                     <tr>   <td class="kromik">০৬</td>    <td class="kromik">জগ</td>             <td> <input type="text"   id="quantity6"  /> </td>      <td><input type="text"  id="dor6" /></td>    <td id="taka6" ></td>      </tr>
+                   <tr>   <td class="kromik">০৭</td>    <td class="kromik">চিলনচি</td>           <td> <input type="text"  id="quantity7"  /> </td>       <td><input type="text"  id="dor7" /></td>   <td id="taka7" ></td>     </tr>
+                   <tr>   <td class="kromik">০৮</td>    <td class="kromik">প্লেট</td>             <td> <input type="text"  id="quantity8"  /> </td>       <td><input type="text"   id="dor8" /></td>    <td id="taka8" ></td>    </tr>
+                   <tr>   <td class="kromik">০৯</td>    <td class="kromik">গ্লাস</td>             <td> <input type="text"   id="quantity9"  /> </td>       <td><input type="text"  id="dor9" /></td>    <td id="taka9" ></td>   </tr>
+                   <tr>   <td class="kromik">১০</td>    <td class="kromik">বালতি</td>           <td> <input type="text"  id="quantity10"  /> </td>        <td><input type="text"  id="dor10" /></td>    <td id="taka10" ></td>      </tr>
+                   <tr>   <td class="kromik">১১</td>    <td class="kromik">ব্যারেল</td>          <td> <input type="text"  id="quantity11"  /> </td>        <td><input type="text"   id="dor11" /></td>    <td id="taka11" ></td>    </tr>
+                   <tr>   <td class="kromik">১২</td>    <td class="kromik">বর প্লেট</td>         <td> <input type="text"  id="quantity12"  /> </td>        <td><input type="text"   id="dor12" /></td>    <td id="taka12" ></td>   </tr>
+
+
+
+                   <tr>   <td class="kromik">১৩</td>    <td class="kromik">বেসিন</td>    <td> <input type="text"    id="quantity13" /> </td>        <td><input type="text"   id="dor13"  /></td>       <td id="taka13" ></td>     </tr>
+
+
+                   <tr>   <td class="kromik">১৪</td>    <td class="kromik">গেট</td>           <td> <input type="text"    id="quantity14" /> </td>       <td><input type="text"    id="dor14" /></td>      <td id="taka14" ></td>     </tr>
+                   <tr>   <td class="kromik">১৫</td>    <td class="kromik">প্যান্ডেল</td>         <td> <input type="text"   id="quantity15" /> </td>        <td><input type="text"  id="dor15" /></td>      <td id="taka15" ></td>    </tr>
+
+                   <tr>   <td class="kromik">১৬</td>    <td class="kromik">বর ডাইস</td>  <td> <input type="text"  id="quantity16" /> </td>       <td><input type="text"   id="dor16" /></td>      <td id="taka16" ></td>    </tr>
+                   <tr>   <td class="kromik">১৭</td>    <td class="kromik">সামিয়ানা</td>          <td> <input type="text"   id="quantity17" /> </td>       <td><input type="text"   id="dor17" /></td>      <td id="taka17" ></td>  </tr>
+                   <tr>   <td class="kromik">১৮</td>    <td class="kromik">সাইট পর্দা</td>         <td> <input type="text"   id="quantity18" /> </td>       <td><input type="text"   id="dor18" /></td>      <td id="taka18" ></td>    </tr>
+                   <tr>   <td class="kromik">১৯</td>    <td class="kromik">টেবিল ক্লথ</td>         <td> <input type="text"   id="quantity19"  /> </td>       <td><input type="text"   id="dor19" /></td>     <td id="taka19" ></td>    </tr>
+                   <tr>   <td class="kromik">২০</td>    <td class="kromik">চট</td>                 <td> <input type="text"   id="quantity20" /> </td>      <td><input type="text"   id="dor20" /></td>     <td id="taka20" ></td>    </tr>
+                   <tr>   <td class="kromik">২১</td>    <td class="kromik">হামান</td>               <td> <input type="text"   id="quantity21" /> </td>      <td><input type="text"    id="dor21" /></td>    <td id="taka21" ></td>   </tr>
+                   <tr>   <td class="kromik">২২</td>    <td class="kromik">হাতা </td>             <td> <input type="text"     id="quantity22" /> </td>       <td><input type="text"   id="dor22"  /></td>    <td id="taka22" ></td>    </tr>
+
+
+
+
+                  <tr>   <td class="kromik">২৩</td>    <td class="kromik">ডাবু </td>               <td> <input type="text"    id="quantity23" /> </td>      <td><input type="text"   id="dor23" /></td>     <td id="taka23" ></td>    </tr>
+                  <tr>   <td class="kromik">২৪</td>    <td class="kromik">বাবুর্চি</td>              <td> <input type="text"     id="quantity24"  /> </td>      <td><input type="text"   id="dor24" /></td>    <td id="taka24" ></td>  </tr>
+                  <tr>   <td class="kromik">২৫</td>    <td class="kromik">কাজের মহিলা</td>        <td> <input type="text"    id="quantity25" /> </td>      <td><input type="text"    id="dor25" /></td>    <td id="taka25" ></td>    </tr>
+                  <tr>   <td class="kromik">২৬</td>    <td class="kromik">মাদুর</td>                 <td> <input type="text"   id="quantity26" /> </td>      <td><input type="text"   id="dor26" /></td>     <td id="taka26" ></td>   </tr>
+                  <tr>   <td class="kromik">২৭</td>    <td class="kromik">কেয়ারিং</td>              <td> <input type="text"   id="quantity27" /> </td>       <td><input type="text"   id="dor27" /></td>     <td id="taka27" ></td>   </tr>
+                  <tr>   <td class="kromik">২৮</td>    <td class="kromik">স্টেজ</td>              <td> <input type="text"     id="quantity28" /> </td>       <td><input type="text"  id="dor28"  /></td>     <td id="taka28" ></td>   </tr>
+                  <tr>   <td class="kromik">২৯</td>    <td class="kromik">বাটি</td>                 <td> <input type="text"    id="quantity29" /> </td>       <td><input type="text"  id="dor29"  /></td>     <td id="taka29" ></td>    </tr>
+                  <tr>   <td class="kromik">৩০</td>    <td class="kromik">নেট ঝুড়ি</td>            <td> <input type="text"    id="quantity30" /> </td>       <td><input type="text"   id="dor30" /></td>     <td id="taka30" ></td>    </tr>
+                  <tr>   <td class="kromik">৩১</td>    <td class="kromik">খাট</td>                  <td> <input type="text"   id="quantity31" /> </td>       <td><input type="text"   id="dor31" /></td>      <td id="taka31" ></td>    </tr>
+                  <tr>   <td class="kromik">৩২</td>    <td class="kromik">জেনেরেটর</td>            <td> <input type="text"  id="quantity32"  /> </td>       <td><input type="text"   id="dor32" /></td>        <td id="taka32" ></td>     </tr>
+                  <tr>   <td class="kromik">৩৩</td>    <td class="kromik">অন্যান্য</td>           <td> <input type="text"     id="quantity33" /> </td>         <td><input type="text"    id="dor33" /></td>         <td id="taka33" ></td>    </tr>
+
+                 <tr>   <td rowspan="3" colspan="2" ></td>                 <td colspan="2">মোট টাকা </td>               <td id="totalTaka" ></td>    </tr>
+                 <tr>                                                       <td colspan="2">জমা-</td>               <td> <input type="text"  id="jomaTaka"/></td>    </tr>
+                 <tr>                                                        <td colspan="2">বাকি- </td>               <td id="bakiTaka" ></td>    </tr>
+
+
+            </tbody>
+
+        </table>
+      </div>
+
+
+       <div>
+           <div class="footerDtls">
+             গ্রহনের তারিখ- <input type="text"  id="grohonerTarikId" />
+           </div>
+
+           <div class="footerDtls">
+             এখানে সম্পূর্ন ঘরোয়া পরিবেশে দেশি-বিদেশি পন্য দ্বারা  শুভ বিবাহ, জন্মদিন সহ সকল প্রকার গেট এবং বর ও কনে ঘর সাজানো হয়।
+           </div>
+
+           <div class="footerDtls">
+             <b>
+              বিঃদ্রঃ উন্নত মানের বাবুর্চি দ্বারা রান্না করা হয় ।</b>
+           </div>
+
+
+
+       </div>
+
+       <div class="sakkor">
+           <div  id="kreta">  গ্রহনকারীর স্বাক্ষর </div>
+
+           <div  id="kortipokko"> কর্তৃপক্ষ </div>
+
+       </div>
+      </div>
+
+	  <div class="officeCopy">
+	       <div id="addressId">
+
+            <div class="containIdentyfr">
+               <h2 class="aponNAme">আপন ডেকোরেটর</h2>    <h4 class="identify">(অফিস কপি)<h4>
+             </div>
+
+            <h3>প্রোঃ মোঃ লিটন হোসেন</h3>
+            <h4>মোবাঃ ০১৭১৯-৬৬৩৩১৩</h4>
+
+            <div class="dukanContact">
+                <div class="dukand"> <h4>নামঃ</h4>  <input type="text" id="grahkNmOffId"/> </div> <div class="dukand"> <h4>ঠিকানাঃ</h4><input type="text" id="grahkThikanaOffId" /></div>
+            </div>
+              <div class="dukanContact">
+                  <div class="dukand"> <h4>মোবাঃ</h4>  <input type="text" id="grahkPhnOffId" /> </div> <div class="dukand"> <h4> তারিখঃ</h4><input type="text" id="tarikOfId" readonly /></div>
+              </div>
+
+               <h5>মোহাম্মাদপুর মোড় বাস স্ট্যান্ড, ঝিকরগাছা, যশোর</h5>
+             </div>
+
+
+
+
+    <div class="tablefix">
+       <table border="1px solid #333">
+            <thead>
+                    <tr>   <th>ক্রঃনং</th>    <th>মালের বিবরণ</th>   <th>সংখ্যা</th>    <th>দর</th>    <th>টাকা</th> </tr>
+            </thead>
+
+            <tbody>
+                    <tr>   <td class="kromik">০১</td>    <td class="kromik">প্লাস্টিকের চেয়ার</td>    <td> <input type="text" id="quantityOf1" /> </td>       <td><input type="text" id="dorOf1" /></td>     <td id="takaOf1" ></td>       </tr>
+                    <tr>   <td class="kromik">০২</td>    <td class="kromik">হাড়ি</td>              <td> <input type="text"  id="quantityOf2" /> </td>     <td><input type="text" id="dorOf2"  /></td>    <td id="takaOf2" ></td>       </tr>
+                    <tr>   <td class="kromik">০৩</td>    <td class="kromik">টেবিল</td>            <td> <input type="text" id="quantityOf3"  /> </td>      <td><input type="text"  id="dorOf3"  /></td>       <td id="takaOf3" ></td>      </tr>
+                    <tr>   <td class="kromik">০৪</td>    <td class="kromik">গামলা</td>            <td> <input type="text"   id="quantityOf4" /> </td>      <td><input type="text"  id="dorOf4"  /></td>      <td id="takaOf4" ></td>     </tr>
+                     <tr>   <td class="kromik">০৫</td>    <td class="kromik">রাইস চামস</td>       <td> <input type="text"   id="quantityOf5"   /> </td>     <td><input type="text"  id="dorOf5" /></td>    <td id="takaOf5" ></td>     </tr>
+
+
+                     <tr>   <td class="kromik">০৬</td>    <td class="kromik">জগ</td>             <td> <input type="text"   id="quantityOf6"  /> </td>      <td><input type="text"  id="dorOf6" /></td>    <td id="takaOf6" ></td>      </tr>
+                   <tr>   <td class="kromik">০৭</td>    <td class="kromik">চিলনচি</td>           <td> <input type="text"  id="quantityOf7"  /> </td>       <td><input type="text"  id="dorOf7" /></td>   <td id="takaOf7" ></td>     </tr>
+                   <tr>   <td class="kromik">০৮</td>    <td class="kromik">প্লেট</td>             <td> <input type="text"  id="quantityOf8"  /> </td>       <td><input type="text"   id="dorOf8" /></td>    <td id="takaOf8" ></td>    </tr>
+                   <tr>   <td class="kromik">০৯</td>    <td class="kromik">গ্লাস</td>             <td> <input type="text"   id="quantityOf9"  /> </td>       <td><input type="text"  id="dorOf9" /></td>    <td id="takaOf9" ></td>   </tr>
+                   <tr>   <td class="kromik">১০</td>    <td class="kromik">বালতি</td>           <td> <input type="text"  id="quantityOf10"  /> </td>        <td><input type="text"  id="dorOf10" /></td>    <td id="takaOf10" ></td>      </tr>
+                   <tr>   <td class="kromik">১১</td>    <td class="kromik">ব্যারেল</td>          <td> <input type="text"  id="quantityOf11"  /> </td>        <td><input type="text"   id="dorOf11" /></td>    <td id="takaOf11" ></td>    </tr>
+                   <tr>   <td class="kromik">১২</td>    <td class="kromik">বর প্লেট</td>         <td> <input type="text"  id="quantityOf12"  /> </td>        <td><input type="text"   id="dorOf12" /></td>    <td id="takaOf12" ></td>   </tr>
+
+
+
+                   <tr>   <td class="kromik">১৩</td>    <td class="kromik">বেসিন</td>          <td> <input type="text"    id="quantityOf13" /> </td>        <td><input type="text"   id="dorOf13"  /></td>       <td id="takaOf13" ></td>     </tr>
+
+
+                   <tr>   <td class="kromik">১৪</td>    <td class="kromik">গেট</td>           <td> <input type="text"    id="quantityOf14" /> </td>       <td><input type="text"    id="dorOf14" /></td>      <td id="takaOf14" ></td>     </tr>
+                   <tr>   <td class="kromik">১৫</td>    <td class="kromik">প্যান্ডেল</td>         <td> <input type="text"   id="quantityOf15" /> </td>        <td><input type="text"  id="dorOf15" /></td>      <td id="takaOf15" ></td>    </tr>
+
+                   <tr>   <td class="kromik">১৬</td>    <td class="kromik">বর ডাইস</td>         <td> <input type="text"  id="quantityOf16" /> </td>       <td><input type="text"   id="dorOf16" /></td>      <td id="takaOf16" ></td>    </tr>
+                   <tr>   <td class="kromik">১৭</td>    <td class="kromik">সামিয়ানা</td>          <td> <input type="text"   id="quantityOf17" /> </td>       <td><input type="text"   id="dorOf17" /></td>      <td id="takaOf17" ></td>  </tr>
+                   <tr>   <td class="kromik">১৮</td>    <td class="kromik">সাইট পর্দা</td>         <td> <input type="text"   id="quantityOf18" /> </td>       <td><input type="text"   id="dorOf18" /></td>      <td id="takaOf18" ></td>    </tr>
+                   <tr>   <td class="kromik">১৯</td>    <td class="kromik">টেবিল ক্লথ</td>         <td> <input type="text"   id="quantityOf19"  /> </td>       <td><input type="text"   id="dorOf19" /></td>     <td id="takaOf19" ></td>    </tr>
+                   <tr>   <td class="kromik">২০</td>    <td class="kromik">চট</td>                 <td> <input type="text"   id="quantityOf20" /> </td>      <td><input type="text"   id="dorOf20" /></td>     <td id="takaOf20" ></td>    </tr>
+                   <tr>   <td class="kromik">২১</td>    <td class="kromik">হামান</td>               <td> <input type="text"   id="quantityOf21" /> </td>      <td><input type="text"    id="dorOf21" /></td>    <td id="takaOf21" ></td>   </tr>
+                   <tr>   <td class="kromik">২২</td>    <td class="kromik">হাতা </td>             <td> <input type="text"     id="quantityOf22" /> </td>       <td><input type="text"   id="dorOf22"  /></td>    <td id="takaOf22" ></td>    </tr>
+
+
+
+
+                  <tr>   <td class="kromik">২৩</td>    <td class="kromik">ডাবু </td>               <td> <input type="text"    id="quantityOf23" /> </td>      <td><input type="text"   id="dorOf23" /></td>     <td id="takaOf23" ></td>    </tr>
+                  <tr>   <td class="kromik">২৪</td>    <td class="kromik">বাবুর্চি</td>              <td> <input type="text"     id="quantityOf24"  /> </td>      <td><input type="text"   id="dorOf24" /></td>    <td id="takaOf24" ></td>  </tr>
+                  <tr>   <td class="kromik">২৫</td>    <td class="kromik">কাজের মহিলা</td>        <td> <input type="text"    id="quantityOf25" /> </td>      <td><input type="text"    id="dorOf25" /></td>    <td id="takaOf25" ></td>    </tr>
+                  <tr>   <td class="kromik">২৬</td>    <td class="kromik">মাদুর</td>                 <td> <input type="text"   id="quantityOf26" /> </td>      <td><input type="text"   id="dorOf26" /></td>     <td id="takaOf26" ></td>   </tr>
+                  <tr>   <td class="kromik">২৭</td>    <td class="kromik">কেয়ারিং</td>              <td> <input type="text"   id="quantityOf27" /> </td>       <td><input type="text"   id="dorOf27" /></td>     <td id="takaOf27" ></td>   </tr>
+                  <tr>   <td class="kromik">২৮</td>    <td class="kromik">স্টেজ</td>              <td> <input type="text"     id="quantityOf28" /> </td>       <td><input type="text"  id="dorOf28"  /></td>     <td id="takaOf28" ></td>   </tr>
+                  <tr>   <td class="kromik">২৯</td>    <td class="kromik">বাটি</td>                 <td> <input type="text"    id="quantityOf29" /> </td>       <td><input type="text"  id="dorOf29"  /></td>     <td id="takaOf29" ></td>    </tr>
+                  <tr>   <td class="kromik">৩০</td>    <td class="kromik">নেট ঝুড়ি</td>            <td> <input type="text"    id="quantityOf30" /> </td>       <td><input type="text"   id="dorOf30" /></td>     <td id="takaOf30" ></td>    </tr>
+                  <tr>   <td class="kromik">৩১</td>    <td class="kromik">খাট</td>                  <td> <input type="text"   id="quantityOf31" /> </td>       <td><input type="text"   id="dorOf31" /></td>      <td id="takaOf31" ></td>    </tr>
+                  <tr>   <td class="kromik">৩২</td>    <td class="kromik">জেনেরেটর</td>            <td> <input type="text"  id="quantityOf32"  /> </td>       <td><input type="text"   id="dorOf32" /></td>        <td id="takaOf32" ></td>     </tr>
+                  <tr>   <td class="kromik">৩৩</td>    <td class="kromik">অন্যান্য</td>           <td> <input type="text"     id="quantityOf33" /> </td>         <td><input type="text"    id="dorOf33" /></td>         <td id="takaOf33" ></td>    </tr>
+
+                 <tr>   <td rowspan="3" colspan="2" ></td>                 <td colspan="2">মোট টাকা </td>               <td id="totalTakaOf" ></td>    </tr>
+                 <tr>                                                       <td colspan="2">জমা-</td>               <td> <input type="text"  id="jomaTakaOf"/></td>    </tr>
+                 <tr>                                                        <td colspan="2">বাকি- </td>               <td id="bakiTakaOf" ></td>    </tr>
+
+
+            </tbody>
+
+        </table>
+      </div>
+
+
+       <div>
+           <div class="footerDtls">
+             গ্রহনের তারিখ- <input type="text" id="grohonerTarikOffId" />
+           </div>
+
+           <div class="footerDtls">
+             এখানে সম্পূর্ন ঘরোয়া পরিবেশে দেশি-বিদেশি পন্য দ্বারা  শুভ বিবাহ, জন্মদিন সহ সকল প্রকার গেট এবং বর ও কনে ঘর সাজানো হয়।
+           </div>
+
+           <div class="footerDtls">
+             <b>
+              বিঃদ্রঃ উন্নত মানের বাবুর্চি দ্বারা রান্না করা হয় ।</b>
+           </div>
+
+
+
+       </div>
+
+       <div class="sakkor">
+         <div  id="kreta">  গ্রহনকারীর স্বাক্ষর </div>
+
+         <div  id="kortipokko"> কর্তৃপক্ষ </div>
+       </div>
+	  </div>
+
+	  </div>
+
+        <script type="text/javascript" src="js/aponj.js"></script>
+  </body>
+
+
+</html>
